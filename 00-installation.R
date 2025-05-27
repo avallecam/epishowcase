@@ -9,7 +9,7 @@ new_packages <- c(
   "rmarkdown",
   "quarto",
   # for Early Task tutorials
-  "epiverse-trace/cleanepi",
+  "cleanepi",
   "rio",
   "DBI",
   "RSQLite",
