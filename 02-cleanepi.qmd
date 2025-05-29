@@ -13,6 +13,8 @@ format: html
 set.seed(1)
 local_data <- simulist::sim_linelist() |>
   simulist::messy_linelist(inconsistent_dates = TRUE)
+
+tibble::as_tibble(local_data)
 ```
 
 ### scan through the data
