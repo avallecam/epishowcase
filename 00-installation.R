@@ -15,15 +15,15 @@ new_packages <- c(
   "RSQLite",
   "dbplyr",
   # "linelist",
-  "epiverse-trace/simulist",
+  "simulist",
   "incidence2",
-  "epiverse-trace/tracetheme"#,
+  "epiverse-trace/tracetheme",
   # for Middle Task tutorials
   # "EpiNow2",
-  # "epiparameter",
+  "epiparameter",
   # "cfr",
   # "outbreaks",
-  # "epicontacts",
+  "epicontacts"#,
   # "fitdistrplus",
   # "superspreading",
   # "epichains",
@@ -55,10 +55,10 @@ library(incidence2)
 library(tracetheme)
 # # for Middle Task tutorials
 # library(EpiNow2)
-# library(epiparameter)
+library(epiparameter)
 # library(cfr)
 # library(outbreaks)
-# library(epicontacts)
+library(epicontacts)
 # library(fitdistrplus)
 # library(superspreading)
 # library(epichains)

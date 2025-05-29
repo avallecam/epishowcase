@@ -162,7 +162,8 @@
       "URL": "https://github.com/HenrikBengtsson/R.methodsS3",
       "BugReports": "https://github.com/HenrikBengtsson/R.methodsS3/issues",
       "NeedsCompilation": "no",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "R.oo": {
       "Package": "R.oo",
@@ -815,7 +816,8 @@
       "NeedsCompilation": "no",
       "Author": "Jennifer Bryan [cre, aut], Hadley Wickham [ctb]",
       "Maintainer": "Jennifer Bryan <jenny@stat.ubc.ca>",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "checkmate": {
       "Package": "checkmate",
@@ -862,8 +864,8 @@
     },
     "cleanepi": {
       "Package": "cleanepi",
-      "Version": "1.1.0",
-      "Source": "Repository",
+      "Version": "1.1.0.9000",
+      "Source": "GitHub",
       "Title": "Clean and Standardize Epidemiological Data",
       "Authors@R": "c( person(\"Karim\", \"Mané\", , \"karim.mane@lshtm.ac.uk\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-9892-2999\")), person(\"Thibaut\", \"Jombart\", , \"thibautjombart@gmail.com\", role = \"ctb\", comment = \"Thibault contributed in development of date_guess().\"), person(\"Abdoelnaser\", \"Degoot\", , \"abdoelnaser-mahmood.degoot@lshtm.ac.uk\", role = \"aut\", comment = c(ORCID = \"0000-0001-8788-2496\")), person(\"Bankolé\", \"Ahadzie\", , \"Bankole.Ahadzie@lshtm.ac.uk\", role = \"aut\"), person(\"Nuredin\", \"Mohammed\", , \"Nuredin.Mohammed@lshtm.ac.uk\", role = \"aut\"), person(\"Bubacarr\", \"Bah\", , \"Bubacarr.Bah1@lshtm.ac.uk\", role = \"aut\", comment = c(ORCID = \"0000-0003-3318-6668\")), person(\"Hugo\", \"Gruson\", , \"hugo@data.org\", role = c(\"ctb\", \"rev\"), comment = c(ORCID = \"0000-0002-4094-1476\")), person(\"Pratik R.\", \"Gupte\", , \"pratik.gupte@lshtm.ac.uk\", role = \"rev\", comment = c(ORCID = \"0000-0001-5294-7819\")), person(\"James M.\", \"Azam\", , \"james.azam@lshtm.ac.uk\", role = \"rev\", comment = c(ORCID = \"0000-0001-5782-7330\")), person(\"Joshua W.\", \"Lambert\", , \"joshua.lambert@lshtm.ac.uk\", role = \"rev\", comment = c(ORCID = \"0000-0001-5218-3046\")), person(\"Chris\", \"Hartgerink\", , \"chris@data.org\", role = \"rev\", comment = c(ORCID = \"0000-0003-1050-6809\")), person(\"Andree\", \"Valle-Campos\", , \"avallecam@gmail.com\", role = c(\"rev\", \"ctb\"), comment = c(ORCID = \"0000-0002-7779-481X\")), person(\"London School of Hygiene and Tropical Medicine, LSHTM\", role = \"cph\", comment = c(ROR = \"00a0jsq62\")), person(\"data.org\", role = \"fnd\") )",
       "Description": "Cleaning and standardizing tabular data package, tailored specifically for curating epidemiological data. It streamlines various data cleaning tasks that are typically expected when working with datasets in epidemiology. It returns the processed data in the same format, and generates a comprehensive report detailing the outcomes of each cleaning task.",
@@ -897,6 +899,7 @@
         "reactable",
         "rmarkdown",
         "spelling",
+        "systemfonts",
         "testthat (>= 3.0.0)"
       ],
       "VignetteBuilder": "knitr",
@@ -906,11 +909,18 @@
       "Encoding": "UTF-8",
       "Language": "en-US",
       "LazyData": "true",
+      "Roxygen": "list(markdown = TRUE)",
       "RoxygenNote": "7.3.2",
       "NeedsCompilation": "no",
       "Author": "Karim Mané [aut, cre] (<https://orcid.org/0000-0002-9892-2999>), Thibaut Jombart [ctb] (Thibault contributed in development of date_guess().), Abdoelnaser Degoot [aut] (<https://orcid.org/0000-0001-8788-2496>), Bankolé Ahadzie [aut], Nuredin Mohammed [aut], Bubacarr Bah [aut] (<https://orcid.org/0000-0003-3318-6668>), Hugo Gruson [ctb, rev] (<https://orcid.org/0000-0002-4094-1476>), Pratik R. Gupte [rev] (<https://orcid.org/0000-0001-5294-7819>), James M. Azam [rev] (<https://orcid.org/0000-0001-5782-7330>), Joshua W. Lambert [rev] (<https://orcid.org/0000-0001-5218-3046>), Chris Hartgerink [rev] (<https://orcid.org/0000-0003-1050-6809>), Andree Valle-Campos [rev, ctb] (<https://orcid.org/0000-0002-7779-481X>), London School of Hygiene and Tropical Medicine, LSHTM [cph] (00a0jsq62), data.org [fnd]",
       "Maintainer": "Karim Mané <karim.mane@lshtm.ac.uk>",
-      "Repository": "CRAN"
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "cleanepi",
+      "RemoteUsername": "epiverse-trace",
+      "RemotePkgRef": "epiverse-trace/cleanepi",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "c6a72fb041553e049580302ad0a327798100271d"
     },
     "cli": {
       "Package": "cli",
@@ -2628,7 +2638,8 @@
       "NeedsCompilation": "no",
       "Author": "Rich FitzJohn [aut, cre]",
       "Maintainer": "Rich FitzJohn <rich.fitzjohn@gmail.com>",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "igraph": {
       "Package": "igraph",
@@ -3419,7 +3430,8 @@
       "Maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
       "URL": "http://optimizer.r-forge.r-project.org/",
       "NeedsCompilation": "no",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "numberize": {
       "Package": "numberize",
@@ -4047,8 +4059,7 @@
       "License": "GPL-3",
       "NeedsCompilation": "no",
       "Author": "Damian W. Betebenner [aut, cre], Lambert Joshua [ctb]",
-      "Repository": "CRAN",
-      "Encoding": "UTF-8"
+      "Repository": "CRAN"
     },
     "rappdirs": {
       "Package": "rappdirs",
@@ -4752,7 +4763,8 @@
       "NeedsCompilation": "no",
       "Author": "Simon Potter [aut, trl, cre], Simon Sapin [aut], Ian Bicking [aut]",
       "Maintainer": "Simon Potter <simon@sjp.co.nz>",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "simulist": {
       "Package": "simulist",
@@ -5496,8 +5508,7 @@
       "License": "GPL-3",
       "NeedsCompilation": "no",
       "Author": "Damian W. Betebenner [aut, cre], Andrew Martin [ctb], Jeff Erickson [ctb]",
-      "Repository": "CRAN",
-      "Encoding": "UTF-8"
+      "Repository": "CRAN"
     },
     "tracetheme": {
       "Package": "tracetheme",
@@ -5538,16 +5549,16 @@
       "LazyData": "true",
       "URL": "https://github.com/epiverse-trace/tracetheme",
       "BugReports": "https://github.com/epiverse-trace/tracetheme/issues",
+      "NeedsCompilation": "no",
+      "Author": "Hugo Gruson [aut, cre] (<https://orcid.org/0000-0002-4094-1476>), The Epiverse-TRACE team [aut, cph]",
+      "Maintainer": "Hugo Gruson <hugo@data.org>",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "tracetheme",
       "RemoteUsername": "epiverse-trace",
       "RemotePkgRef": "epiverse-trace/tracetheme",
       "RemoteRef": "HEAD",
-      "RemoteSha": "caff2f46c93c27d0bf2bffda6ef2eefff3ba125e",
-      "NeedsCompilation": "no",
-      "Author": "Hugo Gruson [aut, cre] (<https://orcid.org/0000-0002-4094-1476>), The Epiverse-TRACE team [aut, cph]",
-      "Maintainer": "Hugo Gruson <hugo@data.org>"
+      "RemoteSha": "caff2f46c93c27d0bf2bffda6ef2eefff3ba125e"
     },
     "tzdb": {
       "Package": "tzdb",
@@ -5626,7 +5637,8 @@
       "URL": "https://www.rforge.net/uuid",
       "BugReports": "https://github.com/s-u/uuid/issues",
       "NeedsCompilation": "yes",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "vctrs": {
       "Package": "vctrs",
@@ -6073,7 +6085,8 @@
       "URL": "https://github.com/vubiostat/r-yaml/",
       "BugReports": "https://github.com/vubiostat/r-yaml/issues",
       "NeedsCompilation": "yes",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "ympes": {
       "Package": "ympes",
