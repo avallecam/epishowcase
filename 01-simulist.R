@@ -102,7 +102,7 @@ library(epicontacts)
 set.seed(2)
 outbreak <- simulist::sim_outbreak()
 
-epicontacts <- make_epicontacts(
+epicontacts <- epicontacts::make_epicontacts(
   linelist = outbreak$linelist,
   contacts = outbreak$contacts,
   id = "case_name",
@@ -118,7 +118,7 @@ plot(epicontacts)
 library(epiparameter)
 
 # create contact distribution (not available from {epiparameter} database)
-contact_distribution <- epiparameter(
+contact_distribution <- epiparameter::epiparameter(
   disease = "COVID-19",
   epi_name = "contact distribution",
   prob_distribution = create_prob_distribution(
@@ -128,7 +128,7 @@ contact_distribution <- epiparameter(
 )
 
 # create infectious period (not available from {epiparameter} database)
-infectious_period <- epiparameter(
+infectious_period <- epiparameter::epiparameter(
   disease = "COVID-19",
   epi_name = "infectious period",
   prob_distribution = create_prob_distribution(
@@ -138,7 +138,7 @@ infectious_period <- epiparameter(
 )
 
 # create onset-to-hospitalisation delay distribution
-onset_to_hosp <- epiparameter(
+onset_to_hosp <- epiparameter::epiparameter(
   disease = "COVID-19",
   epi_name = "onset to hospitalisation",
   prob_distribution = create_prob_distribution(
@@ -148,7 +148,7 @@ onset_to_hosp <- epiparameter(
 )
 
 # get onset to death from {epiparameter} database
-onset_to_death <- epiparameter_db(
+onset_to_death <- epiparameter::epiparameter_db(
   disease = "COVID-19",
   epi_name = "onset to death",
   single_epiparameter = TRUE
