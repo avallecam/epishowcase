@@ -1,40 +1,14 @@
-if(!require("pak")) install.packages("pak")
 
-new_packages <- c(
-  # for Introduction tutorial
-  "here",
-  "tidyverse",
-  "visdat",
-  "skimr",
-  "rmarkdown",
-  "quarto",
-  # for Early Task tutorials
-  "epiverse-trace/cleanepi",
-  "rio",
-  "DBI",
-  "RSQLite",
-  "dbplyr",
-  # "linelist",
-  "simulist",
-  "incidence2",
-  "epiverse-trace/tracetheme",
-  # for Middle Task tutorials
-  # "EpiNow2",
-  "epiparameter",
-  # "cfr",
-  # "outbreaks",
-  "epicontacts"#,
-  # "fitdistrplus",
-  # "superspreading",
-  # "epichains",
-  # # for Late task tutorials
-  # "socialmixr",
-  # "finalsize",
-  # "epiverse-trace/epidemics",
-  # "scales"
-)
+#' Are you on Posit Cloud?
+#' You do not need to run this.
+#' Probably done already by maintainer
 
-pak::pak(new_packages)
+#' Are you running this locally?
+#' Restore package dependencies
+renv::restore()
+
+
+# verify installation -----------------------------------------------------
 
 # for Introduction tutorial
 library(here)
