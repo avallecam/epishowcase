@@ -55,7 +55,7 @@ set.seed(1)
 linelist <- simulist::sim_linelist()
 
 # create <incidence> object with daily aggregation
-daily <- incidence(
+daily <- incidence2::incidence(
   x = linelist,
   date_index = "date_onset",
   interval = "daily",
@@ -81,7 +81,7 @@ linelist <- linelist |>
     date_recovery = recovered
   )
 
-daily <- incidence(
+daily <- incidence2::incidence(
   linelist,
   date_index = c(
     onset = "date_onset",
